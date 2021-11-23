@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Museum Online Javascript</h1>
+    <h1 id="kopje">Museum Online Javascript</h1>
+    <p id="mkBlauw">maak achtergrond blauw</p>
+
+    <script>
+        const kopje = document.getElementById('kopje');
+        kopje.style.backgroundColor = "red";
+        const mkBlauw = document.getElementById('mkBlauw');
+        mkBlauw.addEventListener('click',voeruitblauw)
+
+        function voeruitblauw(){
+            document.body.style.backgroundColor = "blue";
+        }
+    </script>
     
 </body>
 </html>
