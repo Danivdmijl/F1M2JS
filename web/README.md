@@ -1,1 +1,1 @@
-(live view)[http://32570.hosts1.ma-cloud.nl/F1M2JS/]
+[live view](http://32570.hosts1.ma-cloud.nl/F1M2JS/)
